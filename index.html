@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Password Strength Checker</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h2>Password Strength Checker</h2>
+<label for="password">Enter Password:</label>
+<div class="password-wrapper">
+  <input type="password" id="password" placeholder="Type your password..." />
+  <button class="toggle-btn" id="toggleBtn">Show</button>
+  <button class="copy-btn" id="copyBtn">Copy</button>
+</div>
+
+<div class="progress-container">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+<div id="strengthText" class="strength"></div>
+<div id="tips" class="tips"></div>
+
+<button id="darkModeToggle">Dark Mode</button>
+
+<script src="script.js"></script>
+</body>
+</html>

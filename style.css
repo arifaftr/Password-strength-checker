@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+label {
+  font-weight: bold;
+}
+.password-wrapper {
+  position: relative;
+  display: flex;
+}
+input[type="password"],
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-top: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+button.toggle-btn,
+button.copy-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #007BFF;
+  margin-left: 8px;
+  padding: 0 8px;
+  align-self: center;
+}
+button.toggle-btn:hover,
+button.copy-btn:hover {
+  text-decoration: underline;
+}
+.strength {
+  margin-top: 10px;
+  font-weight: bold;
+  height: 24px;
+}
+.weak {
+  color: red;
+}
+.medium {
+  color: orange;
+}
+.strong {
+  color: green;
+}
+.tips {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+body.dark .tips {
+  color: #ccc;
+}
+/* Progress Bar Container */
+.progress-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 12px;
+  margin-top: 10px;
+}
+body.dark .progress-container {
+  background-color: #333;
+}
+/* Progress Bar */
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: red;
+  transition: width 0.3s ease;
+}
+/* Dark mode toggle button */
+#darkModeToggle {
+  margin-top: 20px;
+  padding: 8px 16px;
+  cursor: pointer;
+  background-color: #007BFF;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+#darkModeToggle:hover {
+  background-color: #0056b3;
+}
