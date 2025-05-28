@@ -7,11 +7,20 @@ Features include:
 - Password strength progress bar  
 - Light and Dark mode toggle  
 
+Aplikasi web sederhana untuk mengecek kekuatan password secara real-time.  
+Fitur utama meliputi:  
+- Tampilkan/sembunyikan password  
+- Salin password ke clipboard  
+- Indikator kekuatan password dengan progress bar  
+- Mode terang & gelap (Dark Mode)
+
 ---
 
 ## Demo
 
 You can run the app by opening `index.html` in your browser.
+
+Buka file `index.html` di browser untuk mencoba aplikasi ini secara langsung.
 
 ---
 
@@ -37,6 +46,20 @@ You can run the app by opening `index.html` in your browser.
 - Buttons allow toggling password visibility and copying password to clipboard.  
 - Dark mode toggle button switches between light and dark themes.
 
+
+1. Pengguna memasukkan password ke dalam input field.
+2. Aplikasi mengevaluasi kekuatan password berdasarkan 5 kriteria:
+   - Panjang minimal 8 karakter
+   - Mengandung huruf besar
+   - Mengandung huruf kecil
+   - Mengandung angka
+   - Mengandung simbol
+3. Kekuatan password ditampilkan dengan progress bar berwarna dan teks (Weak, Medium, Strong).
+4. Tips ditampilkan jika password masih lemah atau sedang.
+5. Tersedia tombol untuk:
+   - Menampilkan atau menyembunyikan password
+   - Menyalin password ke clipboard
+   - Mengaktifkan mode gelap (Dark Mode)
 ---
 
 ## Usage
