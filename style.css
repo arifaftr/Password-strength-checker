@@ -97,3 +97,43 @@ body.dark .progress-container {
 #darkModeToggle:hover {
   background-color: #0056b3;
 }
+
+/* ===== Edukasi Section Style ===== */
+.education {
+  background-color: #f9f9f9;
+  color: #222;
+  border-radius: 8px;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+.education h2,
+.education h3 {
+  margin-top: 1rem;
+  color: #333;
+}
+
+.education ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.education a {
+  color: #007acc;
+  text-decoration: underline;
+}
+
+/* === DARK MODE ADAPTASI === */
+body.dark .education {
+  background-color: #1e1e1e;
+  color: #ddd;
+}
+
+body.dark .education h2,
+body.dark .education h3 {
+  color: #fff;
+}
+
+body.dark .education a {
+  color: #66d9ef;
+}
