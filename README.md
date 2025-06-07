@@ -25,10 +25,10 @@ Buka file `index.html` di browser untuk mencoba aplikasi ini secara langsung.
 ---
 
 ## Project Structure
->/password-strength-checker/
->├── index.html # HTML structure
->├── style.css # CSS styling
->└── script.js # JavaScript logic
+/password-strength-checker/  
+├── index.html # HTML structure  
+├── style.css # CSS styling  
+└── script.js # JavaScript logic
 
 ---
 
