@@ -25,10 +25,10 @@ Buka file `index.html` di browser untuk mencoba aplikasi ini secara langsung.
 ---
 
 ## Project Structure
-/password-strength-checker/
-├── index.html # HTML structure
-├── style.css # CSS styling
-└── script.js # JavaScript logic
+>/password-strength-checker/
+>├── index.html # HTML structure
+>├── style.css # CSS styling
+>└── script.js # JavaScript logic
 
 ---
 
@@ -45,21 +45,7 @@ Buka file `index.html` di browser untuk mencoba aplikasi ini secara langsung.
 - Tips appear to help improve the password.  
 - Buttons allow toggling password visibility and copying password to clipboard.  
 - Dark mode toggle button switches between light and dark themes.
-
-
-1. Pengguna memasukkan password ke dalam input field.
-2. Aplikasi mengevaluasi kekuatan password berdasarkan 5 kriteria:
-   - Panjang minimal 8 karakter
-   - Mengandung huruf besar
-   - Mengandung huruf kecil
-   - Mengandung angka
-   - Mengandung simbol
-3. Kekuatan password ditampilkan dengan progress bar berwarna dan teks (Weak, Medium, Strong).
-4. Tips ditampilkan jika password masih lemah atau sedang.
-5. Tersedia tombol untuk:
-   - Menampilkan atau menyembunyikan password
-   - Menyalin password ke clipboard
-   - Mengaktifkan mode gelap (Dark Mode)
+  
 ---
 
 ## Usage
